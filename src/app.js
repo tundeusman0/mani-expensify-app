@@ -15,8 +15,7 @@ import { setTextFilter} from './actions/filters'
 
 const store = configureStore();
 
-const state = store.getState()
-const visibleState = getVisibleExpenses(state.expenses, state.filters)
+
 
 const jsx = (
     <Provider store={store}>
